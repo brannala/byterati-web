@@ -90,7 +90,10 @@ nav a { margin-left: 20px; color: var(--muted); font-size: 15px; }
   flex-wrap: wrap;
   gap: 12px;
   justify-content: center;
+  align-items: center;
 }
+/* Official Apple App Store badge: keep aspect ratio, don't restyle the artwork. */
+.store-link img { display: block; height: 48px; width: auto; }
 .badge {
   display: inline-block;
   background: var(--accent);
